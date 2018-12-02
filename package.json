@@ -1,0 +1,12 @@
+{
+  "name": "razzle-plugin-device-specific-bundles",
+  "version": "1.0.0",
+  "description": "Plugin for creating device specific bundles with Razzle.",
+  "main": "index.js",
+  "repository": "https://github.com/NickCis/razzle-plugin-device-specific-bundles",
+  "author": "Nicolas Cisco",
+  "license": "MIT",
+  "dependencies": {
+    "razzle-dev-utils": "^2.4.0"
+  }
+}
