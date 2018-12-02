@@ -1,0 +1,1008 @@
+yarn run v1.12.1
+$ razzle start
+ WAIT  Compiling...
+
+[01:20:48] Compiling client
+---------------
+device desktop
+result.request ./App
+request ./App.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request react-router-dom/BrowserRouter
+request react-router-dom/BrowserRouter.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request react
+request react.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request react-dom
+request react-dom.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'desktop.client' }
+---------------
+device mobile
+result.request ./App
+request ./App.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request react-router-dom/BrowserRouter
+request react-router-dom/BrowserRouter.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request react
+request react.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request react-dom
+request react-dom.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'mobile.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/App.js
+request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/App.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'desktop.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/App.js
+request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/App.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'mobile.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/react/index.js
+request /home/nickcis/repos/bundles-per-device/node_modules/react/index.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/react-dom/index.js
+request /home/nickcis/repos/bundles-per-device/node_modules/react-dom/index.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'desktop.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/react/index.js
+request /home/nickcis/repos/bundles-per-device/node_modules/react/index.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/react-dom/index.js
+request /home/nickcis/repos/bundles-per-device/node_modules/react-dom/index.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'mobile.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/react-router-dom/BrowserRouter.js
+request /home/nickcis/repos/bundles-per-device/node_modules/react-router-dom/BrowserRouter.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'desktop.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/react-router-dom/BrowserRouter.js
+request /home/nickcis/repos/bundles-per-device/node_modules/react-router-dom/BrowserRouter.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'mobile.client' }
+---------------
+device desktop
+result.request react
+request react.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request react-router-dom/Route
+request react-router-dom/Route.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request react-router-dom/Switch
+request react-router-dom/Switch.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request ./Home
+request ./Home.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request ./App.css
+request ./App.desktop.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/react/index.js
+request /home/nickcis/repos/bundles-per-device/node_modules/react/index.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'desktop.client' }
+---------------
+device mobile
+result.request react
+request react.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request react-router-dom/Route
+request react-router-dom/Route.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request react-router-dom/Switch
+request react-router-dom/Switch.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request ./Home
+request ./Home.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request ./App.css
+request ./App.mobile.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/react/index.js
+request /home/nickcis/repos/bundles-per-device/node_modules/react/index.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'mobile.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/Home.js
+request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/Home.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/react-router-dom/Route.js
+request /home/nickcis/repos/bundles-per-device/node_modules/react-router-dom/Route.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/react-router-dom/Switch.js
+request /home/nickcis/repos/bundles-per-device/node_modules/react-router-dom/Switch.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'desktop.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/Home.js
+request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/Home.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/react-router-dom/Route.js
+request /home/nickcis/repos/bundles-per-device/node_modules/react-router-dom/Route.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/react-router-dom/Switch.js
+request /home/nickcis/repos/bundles-per-device/node_modules/react-router-dom/Switch.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'mobile.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/style-loader/index.js!/home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-1!/home/nickcis/repos/bundles-per-device/node_modules/postcss-loader/lib/index.js??postcss!/home/nickcis/repos/bundles-per-device/src/App.css
+request /home/nickcis/repos/bundles-per-device/node_modules/style-loader/index.js!/home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-1!/home/nickcis/repos/bundles-per-device/node_modules/postcss-loader/lib/index.js??postcss!/home/nickcis/repos/bundles-per-device/src/App.desktop.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'desktop.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/style-loader/index.js!/home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-1!/home/nickcis/repos/bundles-per-device/node_modules/postcss-loader/lib/index.js??postcss!/home/nickcis/repos/bundles-per-device/src/App.css
+request /home/nickcis/repos/bundles-per-device/node_modules/style-loader/index.js!/home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-1!/home/nickcis/repos/bundles-per-device/node_modules/postcss-loader/lib/index.js??postcss!/home/nickcis/repos/bundles-per-device/src/App.mobile.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'mobile.client' }
+---------------
+device desktop
+result.request babel-runtime/core-js/object/get-prototype-of
+request babel-runtime/core-js/object/get-prototype-of.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request babel-runtime/helpers/classCallCheck
+request babel-runtime/helpers/classCallCheck.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request babel-runtime/helpers/createClass
+request babel-runtime/helpers/createClass.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request babel-runtime/helpers/possibleConstructorReturn
+request babel-runtime/helpers/possibleConstructorReturn.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request babel-runtime/helpers/inherits
+request babel-runtime/helpers/inherits.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request react
+request react.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request ./react.svg
+request ./react.desktop.svg
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request ./Home.css
+request ./Home.desktop.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request ./Text
+request ./Text.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/react/index.js
+request /home/nickcis/repos/bundles-per-device/node_modules/react/index.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'desktop.client' }
+---------------
+device mobile
+result.request babel-runtime/core-js/object/get-prototype-of
+request babel-runtime/core-js/object/get-prototype-of.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request babel-runtime/helpers/classCallCheck
+request babel-runtime/helpers/classCallCheck.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request babel-runtime/helpers/createClass
+request babel-runtime/helpers/createClass.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request babel-runtime/helpers/possibleConstructorReturn
+request babel-runtime/helpers/possibleConstructorReturn.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request babel-runtime/helpers/inherits
+request babel-runtime/helpers/inherits.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request react
+request react.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request ./react.svg
+request ./react.mobile.svg
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request ./Home.css
+request ./Home.mobile.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request ./Text
+request ./Text.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/react/index.js
+request /home/nickcis/repos/bundles-per-device/node_modules/react/index.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'mobile.client' }
+---------------
+device desktop
+result.request !!../node_modules/css-loader/index.js??ref--9-1!../node_modules/postcss-loader/lib/index.js??postcss!./App.css
+request !!../node_modules/css-loader/index.js??ref--9-1!../node_modules/postcss-loader/lib/index.js??postcss!./App.desktop.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.css',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request !../node_modules/style-loader/lib/addStyles.js
+request !../node_modules/style-loader/lib/addStyles.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.css',
+  compiler: 'desktop.client' }
+---------------
+device mobile
+result.request !!../node_modules/css-loader/index.js??ref--9-1!../node_modules/postcss-loader/lib/index.js??postcss!./App.css
+request !!../node_modules/css-loader/index.js??ref--9-1!../node_modules/postcss-loader/lib/index.js??postcss!./App.mobile.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.css',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request !../node_modules/style-loader/lib/addStyles.js
+request !../node_modules/style-loader/lib/addStyles.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.css',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/Text.mobile.js
+request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/Text.mobile.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/helpers/classCallCheck.js
+request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/helpers/classCallCheck.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/node_modules/anser/lib/index.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/helpers/createClass.js
+request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/helpers/createClass.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/node_modules/anser/lib/index.js',
+  compiler: 'desktop.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/helpers/classCallCheck.js
+request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/helpers/classCallCheck.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/node_modules/anser/lib/index.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/helpers/createClass.js
+request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/helpers/createClass.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/node_modules/anser/lib/index.js',
+  compiler: 'mobile.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/style-loader/index.js!/home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-1!/home/nickcis/repos/bundles-per-device/node_modules/postcss-loader/lib/index.js??postcss!/home/nickcis/repos/bundles-per-device/src/Home.css
+request /home/nickcis/repos/bundles-per-device/node_modules/style-loader/index.js!/home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-1!/home/nickcis/repos/bundles-per-device/node_modules/postcss-loader/lib/index.js??postcss!/home/nickcis/repos/bundles-per-device/src/Home.desktop.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request !!../node_modules/css-loader/index.js??ref--9-1!../node_modules/postcss-loader/lib/index.js??postcss!./Home.css
+request !!../node_modules/css-loader/index.js??ref--9-1!../node_modules/postcss-loader/lib/index.js??postcss!./Home.desktop.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.css',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request !../node_modules/style-loader/lib/addStyles.js
+request !../node_modules/style-loader/lib/addStyles.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.css',
+  compiler: 'desktop.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/style-loader/index.js!/home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-1!/home/nickcis/repos/bundles-per-device/node_modules/postcss-loader/lib/index.js??postcss!/home/nickcis/repos/bundles-per-device/src/Home.css
+request /home/nickcis/repos/bundles-per-device/node_modules/style-loader/index.js!/home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-1!/home/nickcis/repos/bundles-per-device/node_modules/postcss-loader/lib/index.js??postcss!/home/nickcis/repos/bundles-per-device/src/Home.mobile.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request !!../node_modules/css-loader/index.js??ref--9-1!../node_modules/postcss-loader/lib/index.js??postcss!./Home.css
+request !!../node_modules/css-loader/index.js??ref--9-1!../node_modules/postcss-loader/lib/index.js??postcss!./Home.mobile.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.css',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request !../node_modules/style-loader/lib/addStyles.js
+request !../node_modules/style-loader/lib/addStyles.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.css',
+  compiler: 'mobile.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/Text.js
+request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/Text.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/helpers/possibleConstructorReturn.js
+request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/helpers/possibleConstructorReturn.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/helpers/inherits.js
+request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/helpers/inherits.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/helpers/possibleConstructorReturn.js
+request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/helpers/possibleConstructorReturn.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/helpers/inherits.js
+request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/helpers/inherits.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request react
+request react.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Text.mobile.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/react/index.js
+request /home/nickcis/repos/bundles-per-device/node_modules/react/index.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'mobile.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/file-loader/dist/cjs.js??ref--7!/home/nickcis/repos/bundles-per-device/src/react.svg
+request /home/nickcis/repos/bundles-per-device/node_modules/file-loader/dist/cjs.js??ref--7!/home/nickcis/repos/bundles-per-device/src/react.desktop.svg
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/core-js/object/get-prototype-of.js
+request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/core-js/object/get-prototype-of.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-1!/home/nickcis/repos/bundles-per-device/node_modules/postcss-loader/lib/index.js??postcss!/home/nickcis/repos/bundles-per-device/src/App.css
+request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-1!/home/nickcis/repos/bundles-per-device/node_modules/postcss-loader/lib/index.js??postcss!/home/nickcis/repos/bundles-per-device/src/App.desktop.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-1!/home/nickcis/repos/bundles-per-device/node_modules/postcss-loader/lib/index.js??postcss!/home/nickcis/repos/bundles-per-device/src/Home.css
+request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-1!/home/nickcis/repos/bundles-per-device/node_modules/postcss-loader/lib/index.js??postcss!/home/nickcis/repos/bundles-per-device/src/Home.desktop.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/file-loader/dist/cjs.js??ref--7!/home/nickcis/repos/bundles-per-device/src/react.svg
+request /home/nickcis/repos/bundles-per-device/node_modules/file-loader/dist/cjs.js??ref--7!/home/nickcis/repos/bundles-per-device/src/react.mobile.svg
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/core-js/object/get-prototype-of.js
+request /home/nickcis/repos/bundles-per-device/node_modules/babel-runtime/core-js/object/get-prototype-of.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-1!/home/nickcis/repos/bundles-per-device/node_modules/postcss-loader/lib/index.js??postcss!/home/nickcis/repos/bundles-per-device/src/App.css
+request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-1!/home/nickcis/repos/bundles-per-device/node_modules/postcss-loader/lib/index.js??postcss!/home/nickcis/repos/bundles-per-device/src/App.mobile.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-1!/home/nickcis/repos/bundles-per-device/node_modules/postcss-loader/lib/index.js??postcss!/home/nickcis/repos/bundles-per-device/src/Home.css
+request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-1!/home/nickcis/repos/bundles-per-device/node_modules/postcss-loader/lib/index.js??postcss!/home/nickcis/repos/bundles-per-device/src/Home.mobile.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.client' }
+---------------
+device desktop
+result.request ../node_modules/css-loader/lib/css-base.js
+request ../node_modules/css-loader/lib/css-base.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.css',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request ../node_modules/css-loader/lib/css-base.js
+request ../node_modules/css-loader/lib/css-base.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.css',
+  compiler: 'desktop.client' }
+---------------
+device mobile
+result.request ../node_modules/css-loader/lib/css-base.js
+request ../node_modules/css-loader/lib/css-base.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.css',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request ../node_modules/css-loader/lib/css-base.js
+request ../node_modules/css-loader/lib/css-base.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.css',
+  compiler: 'mobile.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/style-loader/lib/addStyles.js
+request /home/nickcis/repos/bundles-per-device/node_modules/style-loader/lib/addStyles.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.css',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/style-loader/lib/addStyles.js
+request /home/nickcis/repos/bundles-per-device/node_modules/style-loader/lib/addStyles.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.css',
+  compiler: 'desktop.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/style-loader/lib/addStyles.js
+request /home/nickcis/repos/bundles-per-device/node_modules/style-loader/lib/addStyles.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.css',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/style-loader/lib/addStyles.js
+request /home/nickcis/repos/bundles-per-device/node_modules/style-loader/lib/addStyles.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.css',
+  compiler: 'mobile.client' }
+---------------
+device desktop
+result.request react
+request react.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Text.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/react/index.js
+request /home/nickcis/repos/bundles-per-device/node_modules/react/index.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/client.js',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/lib/css-base.js
+request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/lib/css-base.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.css',
+  compiler: 'desktop.client' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/lib/css-base.js
+request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/lib/css-base.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.css',
+  compiler: 'desktop.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/lib/css-base.js
+request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/lib/css-base.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.css',
+  compiler: 'mobile.client' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/lib/css-base.js
+request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/lib/css-base.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.css',
+  compiler: 'mobile.client' }
+[01:20:52] Compiled client in 4s
+[01:20:52] Compiling server
+---------------
+device desktop
+result.request babel-runtime/helpers/slicedToArray
+request babel-runtime/helpers/slicedToArray.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/server.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request babel-runtime/core-js/object/entries
+request babel-runtime/core-js/object/entries.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/server.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request ./App
+request ./App.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/server.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request react
+request react.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/server.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request react-router-dom
+request react-router-dom.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/server.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request react-dom/server
+request react-dom/server.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/server.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/build/assets.json
+request /home/nickcis/repos/bundles-per-device/build/assets.desktop.json
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/server.js',
+  compiler: 'desktop.server' }
+---------------
+device mobile
+result.request babel-runtime/helpers/slicedToArray
+request babel-runtime/helpers/slicedToArray.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/server.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request babel-runtime/core-js/object/entries
+request babel-runtime/core-js/object/entries.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/server.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request ./App
+request ./App.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/server.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request react
+request react.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/server.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request react-router-dom
+request react-router-dom.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/server.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request react-dom/server
+request react-dom/server.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/server.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/build/assets.json
+request /home/nickcis/repos/bundles-per-device/build/assets.mobile.json
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/server.js',
+  compiler: 'mobile.server' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/build/assets.json
+request /home/nickcis/repos/bundles-per-device/build/assets.desktop.json
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/server.js',
+  compiler: 'desktop.server' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/build/assets.json
+request /home/nickcis/repos/bundles-per-device/build/assets.mobile.json
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/server.js',
+  compiler: 'mobile.server' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/App.js
+request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/App.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/server.js',
+  compiler: 'desktop.server' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/App.js
+request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/App.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/server.js',
+  compiler: 'mobile.server' }
+---------------
+device desktop
+result.request react
+request react.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request react-router-dom/Route
+request react-router-dom/Route.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request react-router-dom/Switch
+request react-router-dom/Switch.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request ./Home
+request ./Home.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request ./App.css
+request ./App.desktop.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'desktop.server' }
+---------------
+device mobile
+result.request react
+request react.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request react-router-dom/Route
+request react-router-dom/Route.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request react-router-dom/Switch
+request react-router-dom/Switch.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request ./Home
+request ./Home.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request ./App.css
+request ./App.mobile.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'mobile.server' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/Home.js
+request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/Home.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-0!/home/nickcis/repos/bundles-per-device/src/App.css
+request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-0!/home/nickcis/repos/bundles-per-device/src/App.desktop.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'desktop.server' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/Home.js
+request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/Home.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-0!/home/nickcis/repos/bundles-per-device/src/App.css
+request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-0!/home/nickcis/repos/bundles-per-device/src/App.mobile.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.js',
+  compiler: 'mobile.server' }
+---------------
+device desktop
+result.request ../node_modules/css-loader/lib/css-base.js
+request ../node_modules/css-loader/lib/css-base.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.css',
+  compiler: 'desktop.server' }
+---------------
+device mobile
+result.request ../node_modules/css-loader/lib/css-base.js
+request ../node_modules/css-loader/lib/css-base.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.css',
+  compiler: 'mobile.server' }
+---------------
+device desktop
+result.request babel-runtime/core-js/object/get-prototype-of
+request babel-runtime/core-js/object/get-prototype-of.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request babel-runtime/helpers/classCallCheck
+request babel-runtime/helpers/classCallCheck.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request babel-runtime/helpers/createClass
+request babel-runtime/helpers/createClass.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request babel-runtime/helpers/possibleConstructorReturn
+request babel-runtime/helpers/possibleConstructorReturn.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request babel-runtime/helpers/inherits
+request babel-runtime/helpers/inherits.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request react
+request react.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request ./react.svg
+request ./react.desktop.svg
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request ./Home.css
+request ./Home.desktop.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request ./Text
+request ./Text.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.server' }
+---------------
+device mobile
+result.request babel-runtime/core-js/object/get-prototype-of
+request babel-runtime/core-js/object/get-prototype-of.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request babel-runtime/helpers/classCallCheck
+request babel-runtime/helpers/classCallCheck.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request babel-runtime/helpers/createClass
+request babel-runtime/helpers/createClass.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request babel-runtime/helpers/possibleConstructorReturn
+request babel-runtime/helpers/possibleConstructorReturn.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request babel-runtime/helpers/inherits
+request babel-runtime/helpers/inherits.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request react
+request react.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request ./react.svg
+request ./react.mobile.svg
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request ./Home.css
+request ./Home.mobile.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request ./Text
+request ./Text.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.server' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/lib/css-base.js
+request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/lib/css-base.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.css',
+  compiler: 'desktop.server' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/lib/css-base.js
+request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/lib/css-base.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.css',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/Text.mobile.js
+request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/Text.mobile.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.server' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-0!/home/nickcis/repos/bundles-per-device/src/Home.css
+request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-0!/home/nickcis/repos/bundles-per-device/src/Home.desktop.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.server' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-0!/home/nickcis/repos/bundles-per-device/src/Home.css
+request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/index.js??ref--9-0!/home/nickcis/repos/bundles-per-device/src/Home.mobile.css
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.server' }
+---------------
+device desktop
+result.request ../node_modules/css-loader/lib/css-base.js
+request ../node_modules/css-loader/lib/css-base.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.css',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/lib/css-base.js
+request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/lib/css-base.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.css',
+  compiler: 'desktop.server' }
+---------------
+device mobile
+result.request ../node_modules/css-loader/lib/css-base.js
+request ../node_modules/css-loader/lib/css-base.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.css',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/lib/css-base.js
+request /home/nickcis/repos/bundles-per-device/node_modules/css-loader/lib/css-base.mobile.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/App.css',
+  compiler: 'mobile.server' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/Text.js
+request /home/nickcis/repos/bundles-per-device/node_modules/razzle/node_modules/babel-loader/lib/index.js??ref--6-0!/home/nickcis/repos/bundles-per-device/node_modules/eslint-loader/index.js??ref--4-0!/home/nickcis/repos/bundles-per-device/src/Text.desktop.js
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.server' }
+---------------
+device desktop
+result.request /home/nickcis/repos/bundles-per-device/node_modules/file-loader/dist/cjs.js??ref--7!/home/nickcis/repos/bundles-per-device/src/react.svg
+request /home/nickcis/repos/bundles-per-device/node_modules/file-loader/dist/cjs.js??ref--7!/home/nickcis/repos/bundles-per-device/src/react.desktop.svg
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'desktop.server' }
+---------------
+device mobile
+result.request react
+request react.mobile
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Text.mobile.js',
+  compiler: 'mobile.server' }
+---------------
+device mobile
+result.request /home/nickcis/repos/bundles-per-device/node_modules/file-loader/dist/cjs.js??ref--7!/home/nickcis/repos/bundles-per-device/src/react.svg
+request /home/nickcis/repos/bundles-per-device/node_modules/file-loader/dist/cjs.js??ref--7!/home/nickcis/repos/bundles-per-device/src/react.mobile.svg
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Home.js',
+  compiler: 'mobile.server' }
+---------------
+device desktop
+result.request react
+request react.desktop
+contextInfo { issuer: '/home/nickcis/repos/bundles-per-device/src/Text.js',
+  compiler: 'desktop.server' }
+[01:20:52] Compiled server in 446ms
+[01:20:52] Compiling server
+[01:20:52] Compiled server in 317μs
+[01:20:52] Compiling server
+[01:20:52] Compiled server in 188μs

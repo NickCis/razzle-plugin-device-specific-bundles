@@ -7,6 +7,6 @@
   "author": "Nicolas Cisco",
   "license": "MIT",
   "dependencies": {
-    "razzle-dev-utils": "^2.4.0"
+    "@nickcis/start-server-webpack-plugin": "^2.2.5"
   }
 }
