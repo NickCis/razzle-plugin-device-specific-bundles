@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const ServersPlugin = require('./ServersPlugin');
 const DeviceModuleReplacementPlugin = require('./DeviceModuleReplacementPlugin');
 const StartServerPlugin = require('@nickcis/start-server-webpack-plugin');
 
@@ -49,33 +50,7 @@ function eraseHot(dir) {
     });
 }
 
-function writeRequireFile(path) {
-  fs.writeFileSync(
-    path,
-`const r = eval('require');
-module.exports = r('${path}');
-`
-  );
-}
-
-function writeSSRFile(path, bundles) {
-  fs.writeFileSync(
-    path,
-`const servers = {
-${bundles.map(({device, filename}) => `  ${device}: require('./${filename}').default`).join(',\n')},
-};
-
-if (module.hot) {
-  ${bundles.map(({device, path}) => ` module.hot.accept('${path}', () => {
-    servers['${device}'] = require('${path}').default;
-  });`).join('\n')}
-}
-
-export default servers;`
-  );
-}
-
-function node(config, { dev, devices, entry }, webpack) {
+function node(config, { dev, devices, entry, alias }, webpack) {
   const bundles = devices.map(device => {
     const filename = `${device}.server.js`;
     return {
@@ -109,10 +84,9 @@ function node(config, { dev, devices, entry }, webpack) {
     ];
 
     eraseHot(config.output.path);
-    bundles.forEach(({ path }) => writeRequireFile(path));
   }
 
-  writeSSRFile(path.join(config.output.path, 'servers.js'), bundles);
+  const serversPath = path.join(config.output.path, 'servers.js');
 
   return [
     ...bundles.map(({ device, name, filename }) => ({
@@ -133,6 +107,13 @@ function node(config, { dev, devices, entry }, webpack) {
     })),
     {
       ...config,
+      resolve: {
+        ...config.resolve,
+        alias: {
+          ...config.resolve.alias,
+          [alias]: serversPath,
+        },
+      },
       externals: [
         ...config.externals,
         ...(dev
@@ -144,7 +125,8 @@ function node(config, { dev, devices, entry }, webpack) {
         ...plugins,
         new webpack.DefinePlugin({
           'process.devices': JSON.stringify(devices)
-        })
+        }),
+        new ServersPlugin(serversPath, bundles, dev),
       ],
     },
   ];

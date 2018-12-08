@@ -1,6 +1,6 @@
 import http from 'http';
 import express from 'express';
-import modules from '../build/servers';
+import modules from 'SSR';
 
 const server = http.createServer(
   express()
