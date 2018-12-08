@@ -8,5 +8,10 @@
   "license": "MIT",
   "dependencies": {
     "@nickcis/start-server-webpack-plugin": "^2.2.5"
-  }
+  },
+  "files": [
+    "index.js",
+    "DeviceModuleReplacementPlugin.js",
+    "ServersPlugin.js"
+  ]
 }
