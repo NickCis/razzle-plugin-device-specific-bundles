@@ -19,6 +19,6 @@
     "react-dev-utils": "^6.1.1"
   },
   "devDependencies": {
-    "razzle-plugin-device-specific-bundles": "^1.0.0"
+    "razzle-plugin-device-specific-bundles": "^1.0.1"
   }
 }
