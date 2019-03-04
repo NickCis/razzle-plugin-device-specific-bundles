@@ -10,20 +10,21 @@ class DeviceModuleReplacementPlugin {
 
   resolveByDevice(nmf, result, callback = () => {}) {
     const resolver = nmf.getResolver('normal', result.resolveOptions);
-    const { root, dir, name, ext } = path.parse(result.request);
+    const request = result.request.split('!');
+    const { root, dir, name, ext } = path.parse(request.pop());
     const contextInfo = result.contextInfo || result.resourceResolveData.context;
     const device = contextInfo.compiler.split('.')[0];
-    const request = path.format({
+    const file = path.format({
       root,
       dir,
       name,
       ext: `.${device}${ext}`
     });
-    const file = request.split('!').pop();
 
     resolver.resolve(contextInfo, result.context, file, {}, err => {
       if (!err) {
-        result.request = request;
+        request.push(file);
+        result.request = request.join('!');
       }
 
       callback();
